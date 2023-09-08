@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Rendering Website",
   "main": "app.js",
+  "engines": {
+     "node": ">=16.0.0"
+  },
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "set NODE_ENV=production&& nodemon server.js"
