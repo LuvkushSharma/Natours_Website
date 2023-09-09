@@ -18,8 +18,8 @@ const cors = require('cors');
 const AppError = require (path.join(__dirname ,'/utils/appError.js'));
 const globalErrorHandler = require(path.join(__dirname ,'/Controllers/errorController.js'))
 
-const tourRouter = require(path.join(__dirname , '/Routes/tourRoutes'));
-const userRouter = require(path.join(__dirname , '/Routes/userRoutes'));
+const tourRouter = require(path.join(__dirname , '/routes/tourRoutes'));
+const userRouter = require(path.join(__dirname , '/routes/userRoutes'));
 
 const viewRouter = require(path.join(__dirname , '/routes/viewRoutes'));
 
